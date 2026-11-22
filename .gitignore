@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+config.local.*
+
+# Editor e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dados locais e backups (revisar antes de publicar)
+*.bak
+*.mdf
+*.ldf
+*.sqlite
+*.db
